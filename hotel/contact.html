@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Grand Hotel Chain</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    </style>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav-container">
+            <div class="logo">Grand Hotels</div>
+            <div class="nav-links">
+                <a href="main.html">Home</a>
+                <a href="destination.html">Destinations</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="auth-buttons">
+                <button class="auth-button login">Login</button>
+                <button class="auth-button register">Register</button>
+            </div>
+        </nav>
+    </header>
+
+    <div class="page-title">
+        <h1>Contact Us</h1>
+        <p>Get in touch with our team for any inquiries or assistance</p>
+    </div>
+
+    <div class="contact-container">
+        <div class="locations-contact-grid">
+            <div class="location-contact-card">
+                <i class="fas fa-hotel"></i>
+                <h3>New York</h3>
+                <div class="location-contact-details">
+                    <p>123 Broadway Street</p>
+                    <p>New York, NY 10001</p>
+                    <p>Phone: +1 (212) 555-0123</p>
+                    <p>Email: newyork@grandhotels.com</p>
+                </div>
+            </div>
+            <div class="location-contact-card">
+                <i class="fas fa-hotel"></i>
+                <h3>London</h3>
+                <div class="location-contact-details">
+                    <p>45 Oxford Street</p>
+                    <p>London, UK W1D 2DT</p>
+                    <p>Phone: +44 20 7123 4567</p>
+                    <p>Email: london@grandhotels.com</p>
+                </div>
+            </div>
+            <div class="location-contact-card">
+                <i class="fas fa-hotel"></i>
+                <h3>Paris</h3>
+                <div class="location-contact-details">
+                    <p>78 Avenue des Champs-Élysées</p>
+                    <p>75008 Paris, France</p>
+                    <p>Phone: +33 1 23 45 67 89</p>
+                    <p>Email: paris@grandhotels.com</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="map-section">
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387193.30591910525!2d-74.25986548248684!3d40.69714941932609!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2s!4v1647043075487!5m2!1sen!2s" width="100%" height="100%" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+
+        <div class="contact-form-section">
+            <div class="contact-form">
+                <h2>Send Us a Message</h2>
+                <form>
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About Grand Hotel Chain</h3>
+                <p>Experience luxury and comfort at its finest with our worldwide collection of premium hotels and
+                    resorts. Creating unforgettable memories since 1990.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Our Hotels</a></li>
+                    <li><a href="#">Special Offers</a></li>
+                    <li><a href="#">Dining Experience</a></li>
+                    <li><a href="#">Wellness & Spa</a></li>
+                    <li><a href="#">Events & Meetings</a></li>
+                    <li><a href="#">Careers</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <ul class="footer-links">
+                    <li><i class="fas fa-map-marker-alt"></i> 123 Luxury Avenue, City</li>
+                    <li><i class="fas fa-phone"></i> +1 (555) 123-4567</li>
+                    <li><i class="fas fa-envelope"></i> info@grandhotel.com</li>
+                    <li><i class="fas fa-clock"></i> 24/7 Customer Service</li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Newsletter</h3>
+                <p>Subscribe to our newsletter for special offers and updates.</p>
+                <form class="newsletter-form">
+                    <input type="email" class="newsletter-input" placeholder="Your email address">
+                    <button type="submit" class="newsletter-button">Subscribe</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2024 Grand Hotel Chain. All rights reserved. | Privacy Policy | Terms of Service</p>
+        </div>
+    </footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
